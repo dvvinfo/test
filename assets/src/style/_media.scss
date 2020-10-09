@@ -1,0 +1,50 @@
+@media screen and (max-width: 1300px){
+.photo-item{
+  width: 270px;
+}
+}
+@media screen and (max-width: 1200px){
+  .photo-item{
+    width: 250px;
+  }
+}
+@media screen and (max-width: 1100px){
+  .photo-item{
+    width: 230px;
+  }
+  .progress-bar progress {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 990px){
+  .photo-item{
+    margin: 0  auto 20px auto;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 760px){
+  .tel-block{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 760px){
+  .progress-bar progress {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 360px){
+.progress-bar progress {
+  width: 75%;
+}
+  .number-wrapper{
+    flex-direction: column;
+  }
+  .number-item{
+    margin-top: 20px;
+    &:first-child{
+      margin-top: 0;
+    }
+  }
+}
